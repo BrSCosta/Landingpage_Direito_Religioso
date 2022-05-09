@@ -1,0 +1,376 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif+Caption&family=Rosarivo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif+Caption&family=Roboto:wght@300;400&family=Rosarivo&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'PT Serif Caption', 'Rosarivo', serif;
+    max-width: 1540px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* DOBRA-01 */
+
+.first-section{
+    background-image: url(Image/bkground1.jpg);
+    background-size: cover;
+    height: 605px;
+    padding: 3rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column: 2;
+}
+
+.logo{
+    cursor: pointer;
+}
+
+.titles{
+    padding: 3rem 0;
+    grid-column: 1;
+}
+
+h3{
+    font-family: 'PT Serif Caption';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px; 
+    color: #FFFFFF;
+}
+
+h1{
+    font-family: 'Rosarivo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    color: #E2B352;
+}
+
+.text-dobra01{
+    font-family: 'PT Serif Caption';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    padding: 0 3rem 0 0;
+    text-align: start;
+    grid-column: 1;
+}
+
+.balancajustica{
+    max-width: 590px;
+    width: 100%;
+    margin-top: -35px;
+    grid-column: 2;
+    grid-row: 1/5;
+}
+
+/* DOBRA-02 */
+
+.second-section{
+    background-color: #FFFFFF;
+    height: 750px;
+    padding: 5rem 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.section-dobra-02{
+    display: flex;
+    align-items: center;
+    padding: 3rem;
+}
+
+iframe{
+    width: 80%;
+}
+
+.texts-dobra-02{
+    padding: 2.5rem 3.5rem;
+    width: 100%;
+}
+
+.title-dobra-02{
+    font-family: 'PT Serif Caption';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.text-dobra-02{
+    font-family: 'PT Serif Caption';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    width: 100%;
+}
+
+.buttons-dobra-02{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem  0;
+}
+
+.matricula{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 18px;
+    background: linear-gradient(180deg, #E2B352 0%, #7B570D 100%);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.12);
+    border-radius: 8px;
+    width: 30%;
+}
+
+.whatsapp{
+    margin-left: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    background: #FFFFFF;
+    border: 1px solid #AE842F;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.12);
+    border-radius: 8px;
+    width: 30%;
+}
+
+.whatsapp:hover{
+    cursor: pointer;
+    background-color: #e2b2521e;
+    transition: 0.3s;
+}
+
+.matricula:hover{
+    cursor: pointer;
+    background: linear-gradient(180deg, #e2b252c9 0%, #7b560de3 100%);
+    transition: 0.3s;
+}
+
+a{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+}
+
+/* DOBRA-03 */
+
+.dobra-03{
+    background-image: url(Image/Dobra\ 3.png);
+    padding: 3rem;
+}
+
+.title-dobra-03{
+    font-family: 'PT Serif Caption';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38.8571px;
+    padding: 2rem 0;
+    color: black;
+}
+
+.frames{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.buttons-dobra-03{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8rem  0;
+}
+
+/* ]DOBRA-04 */
+
+.tirth-section-dobra-04{
+    background-image: url(Image/BkgroundDobra04.png);
+    padding: 8rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.title-dobra-04{
+    font-family: 'PT Serif Caption';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38.8571px;
+    padding: 0 1rem;
+}
+
+.professornome{
+    font-family: 'PT Serif Caption';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #E2B352;
+    padding: 2.5rem 1rem;
+}
+
+.p-dobra-04{
+    font-family: 'PT Serif Caption';
+    font-size: 16px;
+    font-weight: 100;
+    width: 100%;
+    padding: 1rem;
+    
+}
+
+.imgprofessor{
+    margin-left: 100px;
+    grid-column: 2;
+    grid-row: 1/5;
+}
+
+/* DOBRA-07 */
+
+.dobra-7{
+    background-image: url(Image/bkgroundDobra\ -\ 7.png);
+    background-size: cover;
+    height: 839px;
+    padding: 3rem;
+}
+
+.title-dobra-07{
+    font-family: 'PT Serif Caption';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38.86px;
+    color: black;
+    padding: 5rem 0;
+}
+
+.frames-dobra-07{
+    display: flex;
+    justify-content: center;
+    padding: 2rem 0;
+}
+
+.frame-dobra-07-video{
+    display: flex;
+    align-items: flex-start;
+    width: 25%;
+}
+
+.frame-dobra-07-livros{
+    display: flex;
+    align-items: flex-start;
+    width: 32%;
+}
+
+.frame-dobra-07-relogio{
+    display: flex;
+    align-items: flex-start;
+    width: 25%;
+}
+
+.text-frame-dobra07{
+    padding: 0 1rem;
+}
+
+.img-valor{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;   
+}
+
+.buton-dobra-07{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+/* DOBRA-08 */
+
+.dobra-08{
+    background-color: #F5F5F5;
+    height: 185px;
+}
+
+.dobra-08 h4{
+    font-family: 'PT Serif Caption';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 2rem 3rem;
+}
+
+.whats-dobra-08{
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 3rem;
+}
+
+.email-dobra-08{
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 3rem;
+}
+
+.whats-dobra-08 a{
+    font-family: 'PT Serif Caption';
+    font-size: 18px;
+    cursor: pointer;
+    display: flex;
+    color: #AE842F;
+}
+
+.whats-dobra-08 img{
+    margin-right: 10px;
+}
+
+.email-dobra-08 a{
+    font-family: 'PT Serif Caption';
+    font-size: 18px;
+    cursor: pointer;
+    display: flex;
+    color: #AE842F;
+}
+
+.email-dobra-08 img{
+    margin-right: 10px;
+}
+
+/* FOOTER */
+
+footer{
+    background: #121212;
+    width: 100%;
+    height: 80px;
+    color: white;
+    font-family: 'PT Serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    align-items:flex-end ;
+    display: flex;
+    justify-content: flex-end;
+    text-align: right;
+}

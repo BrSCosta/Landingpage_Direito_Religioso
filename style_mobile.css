@@ -1,0 +1,361 @@
+@media screen and (max-width: 1165px){
+    body{
+        font-family: 'PT Serif Caption', 'Rosarivo', serif;
+        max-width:1000px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+/* DOBRA-01 */
+
+    .first-section{
+        background-image: url(Mobile/Sem\ título.png);
+        background-size: cover;
+        height: 950px;
+        padding: 2rem;
+        align-items: center;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    
+    .logo{
+        cursor: pointer;
+        margin: 0 auto;
+        max-width: 150px;
+    }
+    
+    .titles{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 2.5rem;
+        width: 100%;
+        text-align: center;
+    }
+    
+    h3{
+        font-family: 'PT Serif Caption';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px; 
+        color: #FFFFFF;
+    }
+    
+    h1{
+        font-family: 'Rosarivo';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        color: #E2B352;
+    }
+    
+    .text-dobra01{
+        font-family: 'PT Serif Caption';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        color: #FFFFFF;
+        text-align: center;
+        padding: 2rem 0;
+    }
+
+    .balancajustica{
+        grid-row: 3/5;
+        margin: 0 auto;
+        grid-column: 1;
+        max-width: 308px;
+        max-height: 241px;
+    }
+
+/* DOBRA-02 */
+
+    .second-section{
+        background-color: #FFFFFF;
+        height: 980px;
+        padding: 5rem 0rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .section-dobra-02{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+
+    iframe{
+        width: 320px;
+        height: 220px;
+    }
+
+    .texts-dobra-02{
+        padding: 2.5rem 2rem;
+        width: 100%;
+    }
+
+    .title-dobra-02{
+        font-family: 'PT Serif Caption';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+    }
+
+    .text-dobra-02{
+        font-family: 'PT Serif Caption';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        width: 100%;
+    }
+
+    .buttons-dobra-02{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 3rem  2rem;
+    }
+
+    .matricula{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 18px;
+        background: linear-gradient(180deg, #E2B352 0%, #7B570D 100%);
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.12);
+        border-radius: 8px;
+        width: 80%;
+    }
+
+    .whatsapp{
+        margin-top: 2rem;
+        margin-left: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 16px;
+        background: #FFFFFF;
+        border: 1px solid #AE842F;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.12);
+        border-radius: 8px;
+        width: 80%;
+    }
+
+    .whatsapp:hover{
+        cursor: pointer;
+        background-color: #e2b2521e;
+        transition: 0.3s;
+    }
+
+    .matricula:hover{
+        cursor: pointer;
+        background: linear-gradient(180deg, #e2b252c9 0%, #7b560de3 100%);
+        transition: 0.3s;
+    }
+
+    a{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        color: black;
+        text-decoration: none;
+    }
+
+/* DOBRA-03 */
+
+    .dobra-03{
+        background-image: url(Image/Dobra\ 3.png);
+        padding: 3rem;
+    }
+
+    .title-dobra-03{
+        font-family: 'PT Serif Caption';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 38.8571px;
+        padding: 2rem 0;
+        color: black;
+    }
+
+    .frames{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+     }
+
+    .buttons-dobra-03{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 8rem  0;
+    }
+
+/* ]DOBRA-04 */
+
+    .tirth-section-dobra-04{
+        background-image: url(Image/BkgroundDobra04.png);
+        display: grid;
+        grid-template-columns: 1fr;
+        color: white;
+        margin: 0 auto;
+        padding: 2rem;
+    }
+
+    .title-dobra-04{
+        font-family: 'PT Serif Caption';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 38.8571px;
+        margin: 0 auto;
+    }
+
+    .professornome{
+        font-family: 'PT Serif Caption';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        color: #E2B352;
+        padding: 2.5rem 1rem;
+        margin: 0 auto;
+        grid-column: 1;
+        grid-row: 3;
+    }
+
+    .p-dobra-04{
+        font-family: 'PT Serif Caption';
+        font-size: 16px;
+        margin: 0 auto;
+        width: 100%;
+        grid-column: 1;
+        grid-row: 4;
+    }
+
+    .imgprofessor{
+        margin: 0 auto;
+        padding: 1rem;
+        grid-column: 1;
+        grid-row: 2;
+    }
+    
+    .imgprofessor img{
+        max-width: 280px;
+    }
+
+/* DOBRA-07 */
+
+    .dobra-7{
+        background-image: url(Mobile/bkground-dobra-07.png);
+        background-size: cover;
+        height: 1700px;
+        padding: 3rem;
+    }
+
+    .title-dobra-07{
+        font-family: 'PT Serif Caption';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        color: black;
+        padding: 3rem 0;
+    }
+
+    .frames-dobra-07{
+        display: flex;
+        align-items: center ;
+        flex-direction: column;
+        justify-content: center;
+        padding: 2rem 0;
+    }
+
+    .imgframe-07{
+        padding: 2.5rem 0;
+        max-width: 320px;
+    }
+
+    .frame-dobra-07-video{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 5rem 1rem;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .frame-dobra-07-livros{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 5rem 1rem;
+        margin: 0 auto;
+        width: 100%;
+    }
+    
+    .frame-dobra-07-relogio{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 5rem 1rem;
+        margin: 0 auto;
+        width: 100%;
+    }
+    
+    .text-frame-dobra07{
+        padding: 0;
+    }
+    
+    .img-valor{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 3rem;   
+    }
+
+    .img-valor img{
+        max-width: 320px;
+    }
+  
+    .buton-dobra-07{
+        padding: 5rem 0;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+}/* DOBRA-08 */
+
+    .dobra-08{
+        background-color: #F5F5F5;
+        height: 210px;
+    }
+
+/* FOOTER */
+
+    footer{
+        font-family: 'PT Serif';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        display: flex;
+        justify-content: end;
+        align-items: flex-end;
+        text-align: end;
+        padding: 2rem;
+        height: 85px;
+        color: white;
+        background-color: black;
+    }
